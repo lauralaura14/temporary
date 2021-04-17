@@ -1,4 +1,3 @@
-
 package com.thechessparty.connection;
 
 import java.net.*;
