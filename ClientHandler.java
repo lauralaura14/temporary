@@ -53,9 +53,8 @@ public class ClientHandler implements Runnable {
                 outputStream.writeUTF("\nYou're the only one waiting.");
             }
 
-            /**
-             * messaging client to client (please check receiving client to see msgs are coming through properly. sometimes letters disappear/weird symbols pop up).
-             */
+
+            //messaging client to client (please check receiving client to see msgs are coming through properly. sometimes letters disappear/weird symbols pop up).
 
             while (true) {
                 inputMsg = inputStream.readUTF();
